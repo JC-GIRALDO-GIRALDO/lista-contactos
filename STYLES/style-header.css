@@ -1,0 +1,40 @@
+@import url("variables.css");
+
+.principal {
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 80px 200px auto;
+}
+
+.principal > h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Gabriela", serif;
+  color: var(--quinto-color);
+}
+
+.iconoInicio {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.menu {
+  margin-top: 1rem;
+  width: 650px;
+  background-color: var(--tercer-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu .menu-clase {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: var(--primer-color);
+  font-family: "Arya", sans-serif;
+  background-color: var(--cuarto-color);
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}

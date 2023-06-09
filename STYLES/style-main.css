@@ -1,0 +1,50 @@
+@import url("variables.css");
+
+.cuerpo {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.contactos {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.nuevo-contacto {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  background-color: var(--primer-color);
+  height: 40px;
+  margin-top: 2rem;
+  outline: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+input:focus {
+  border-bottom: 2px solid var(--quinto-color);
+}
+
+input:hover {
+  background-color: var(--segundo-color);
+}
+
+input::placeholder {
+  color: var(--quinto-color);
+  font-family: "Hi Melody", cursive;
+}
+
+input::placeholder:hover {
+  color: var(--primer-color);
+}
+
+button {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  height: 25px;
+  background-color: var(--cuarto-color);
+  font-family: "Arya", sans-serif;
+}

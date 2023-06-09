@@ -1,0 +1,13 @@
+/* variable de colores de la pagina lista-contacto */
+:root {
+  /* PARA EL TEXTO */
+  --primer-color: #010910;
+  /* PARA CONTENEDORES */
+  --segundo-color: #0c2d35;
+  /* PARA MENU */
+  --tercer-color: #28595f;
+  /* PARA SUBCONTENEDORES */
+  --cuarto-color: #468794;
+  /* FONDO DE PANTALLA */
+  --quinto-color: #55a29e;
+}
